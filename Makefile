@@ -29,3 +29,5 @@ auth:
 	gcloud auth login
 	gcloud -q config set project mlops-3
 	gcloud auth configure-docker us-central1-docker.pkg.dev
+	gcloud container clusters get-credentials atforestry-cluster --region us-central1
+

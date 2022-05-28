@@ -22,7 +22,7 @@ def perform_healthcheck():
 async def main():
     content = """
 <body>
-<p>Hello World from Boilerplate!</p>
+<p>Hello World !</p>
 </body>
     """
     return HTMLResponse(content=content)
